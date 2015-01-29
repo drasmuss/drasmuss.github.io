@@ -1,0 +1,15 @@
+# --- Jekyll configuration
+
+# Github sets these, and we can't change them.
+safe: true
+lsi: false
+source: .
+
+# These we can modify.
+
+baseurl:
+
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
