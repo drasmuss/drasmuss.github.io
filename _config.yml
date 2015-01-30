@@ -7,6 +7,14 @@ source: .
 
 # These we can modify.
 
+collections:
+    research:
+        output: false
+    projects:
+        output: false
+    publications:
+        output: false
+
 baseurl:
 
 permalink: pretty
