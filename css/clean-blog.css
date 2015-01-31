@@ -7,24 +7,25 @@
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 5px;
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
   margin-top: 0;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
