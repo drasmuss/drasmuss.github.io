@@ -1,12 +1,3 @@
-# --- Jekyll configuration
-
-# Github sets these, and we can't change them.
-safe: true
-lsi: false
-source: .
-
-# These we can modify.
-
 collections:
     research:
         output: false
@@ -15,9 +6,4 @@ collections:
     publications:
         output: false
 
-baseurl:
-
 permalink: pretty
-
-gems:
-  - jekyll-sitemap
