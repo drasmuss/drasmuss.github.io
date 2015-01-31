@@ -4,6 +4,7 @@ title: Publications
 ---
 
 {% assign types = "Journal Articles;Theses;Conference Proceedings;Invited Commentaries;Book Chapters" | split: ";" %}
+
 <section id="top" class="container content-section text-center">
 	<ul class="list-inline banner-social-buttons">
 		{% for type in types %}
@@ -37,10 +38,10 @@ title: Publications
 				        {% endif %}
 				    </a>
 				    <p class="post-meta">
-				    {{pub.author}} ({{pub.year}}). {{pub.journal}}.
-				    {% if pub.code %}
-				    <a href="{{pub.code}}" class="btn btn-default btn-sm"><span class="network-name">Code</span></a>
-				    {% endif %}
+					    {{pub.author}} ({{pub.year}}). {{pub.journal}}.
+					    {% if pub.code %}
+					    <a href="{{pub.code}}" class="btn btn-default btn-sm post-extras"><span class="network-name">Code</span></a>
+					    {% endif %}
 				    </p>
 				</div>
 				<hr>

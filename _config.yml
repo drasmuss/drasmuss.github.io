@@ -5,5 +5,7 @@ collections:
         output: false
     publications:
         output: false
+    bio:
+        output: false
 
 permalink: pretty

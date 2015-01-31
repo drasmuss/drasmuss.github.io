@@ -24,8 +24,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 18px;
-  }
+.post-preview > .post-extras {
+  font-size: 12px;
+  font-style: normal;
 }
