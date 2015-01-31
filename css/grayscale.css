@@ -214,6 +214,37 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
+.pub-list > a {
+  color: #808080;
+}
+.pub-list > a:hover,
+.pub-list > a:focus {
+  text-decoration: none;
+  color: #0085a1;
+}
+.pub-list > a > .pub-title {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.pub-list > a > .pub-subtitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.pub-list > .pub-meta {
+  color: #606060;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pub-preview > .pub-extras {
+  font-size: 12px;
+  font-style: normal;
+}
+
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
