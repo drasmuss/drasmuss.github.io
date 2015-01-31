@@ -21,33 +21,33 @@ title: Publications
 {% assign groups = site.publications | group_by: "type" %}
 
 {% for type in types %}
-	{% assign pubs = (groups | where: "name", type) %}
-	<section id="{{type}}" class="content-section text-left">
-		<div class="container">
-			<h3>{{type}}</h3>
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-					{% assign tmp = (pubs[0].items | sort: "year") %}
-					{% for pub in tmp reversed %}
-					<div class="post-preview">
-					    <a href="{{site.basurl}}/files/{{ pub.pdf }}">
-					        <h3 class="post-title"> {{ pub.title }} </h3>
-					        {% if pub.subtitle %}
-					        <h4 class="post-subtitle"> {{ pub.subtitle }} </h4>
-					        {% endif %}
-					    </a>
-					    <p class="post-meta">
-					    {{pub.author}} ({{pub.year}}). {{pub.journal}}.
-					    {% if pub.code %}
-					    <a href="{{pub.code}}" class="btn btn-default btn-sm"><span class="network-name">Code</span></a>
-					    {% endif %}
-					    </p>
-					</div>
-					<hr>
-					{% endfor %}
-					<a href="#top" class="btn btn-default btn-sm"><span class="network-name">Top</span></a>
+{% assign pubs = (groups | where: "name", type) %}
+<section id="{{type}}" class="content-section text-left">
+	<div class="container">
+		<h3>{{type}}</h3>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				{% assign sorted = (pubs[0].items | sort: "year") %}
+				{% for pub in sorted reversed %}
+				<div class="post-preview">
+				    <a href="{{site.basurl}}/files/{{ pub.pdf }}">
+				        <h3 class="post-title"> {{ pub.title }} </h3>
+				        {% if pub.subtitle %}
+				        <h4 class="post-subtitle"> {{ pub.subtitle }} </h4>
+				        {% endif %}
+				    </a>
+				    <p class="post-meta">
+				    {{pub.author}} ({{pub.year}}). {{pub.journal}}.
+				    {% if pub.code %}
+				    <a href="{{pub.code}}" class="btn btn-default btn-sm"><span class="network-name">Code</span></a>
+				    {% endif %}
+				    </p>
 				</div>
+				<hr>
+				{% endfor %}
+				<a href="#top" class="btn btn-default btn-sm"><span class="network-name">Top</span></a>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 {% endfor %}
