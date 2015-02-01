@@ -207,7 +207,7 @@ a:focus {
 }
 
 .pub-list > a {
-  color: #808080;
+  color: #C0C0C0;
 }
 .pub-list > a:hover,
 .pub-list > a:focus {
@@ -226,7 +226,7 @@ a:focus {
   margin-bottom: 5px;
 }
 .pub-list > .pub-meta {
-  color: #606060;
+  color: #808080;
   font-size: 14px;
   font-style: italic;
   margin-top: 0;
