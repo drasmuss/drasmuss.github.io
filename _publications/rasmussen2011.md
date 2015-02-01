@@ -4,5 +4,5 @@ author: Rasmussen, D. and Eliasmith, C.
 year: 2011
 journal: Topics in Cognitive Science
 type: Journal Articles
-pdf: Rasmussen, Eliasmith - 2011 - A Neural Model of Rule Generation in Inductive Reasoning.pdf
+pdf: http://onlinelibrary.wiley.com/doi/10.1111/j.1756-8765.2010.01127.x/pdf
 ---

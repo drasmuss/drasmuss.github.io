@@ -9,5 +9,5 @@ This project was based on building a neural model of those inductive, pattern-co
 
 This model was also incorporated into the larger SPAUN model, forming the heart of its inductive reasoning ability.
 
-* [Summary paper]({{site.baseurl}}/files/Rasmussen, Eliasmith - 2014 - A spiking neural model applied to the study of human performance and cognitive decline on Raven's Advanced.pdf)
-* [SPAUN model]({{site.baseurl}}/files/Eliasmith et al. - 2012 - A Large-Scale Model of the Functioning Brain.pdf)
+* [Summary paper](/files/Rasmussen, Eliasmith - 2014 - A spiking neural model applied to the study of human performance and cognitive decline on Raven's Advanced.pdf)
+* [SPAUN model](http://compneuro.uwaterloo.ca/files/publications/eliasmith.2012.pdf)

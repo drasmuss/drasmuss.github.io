@@ -14,7 +14,7 @@ title: Publications
 	    {% endfor %}
 	</ul>
 	<ul class="list-inline banner-social-buttons">
-	<a href="{{site.baseurl}}/files/CV.pdf" class="btn btn-default btn-sm"><span class="network-name">Download full CV</span></a>
+	<a href="/files/CV.pdf" class="btn btn-default btn-sm"><span class="network-name">Download full CV</span></a>
 	</ul>
 </section>
 
@@ -31,7 +31,7 @@ title: Publications
 				{% assign sorted = (pubs[0].items | sort: "year") %}
 				{% for pub in sorted reversed %}
 				<div class="pub-list">
-				    <a href="{{site.basurl}}/files/{{ pub.pdf }}">
+				    <a href="{{ pub.pdf }}">
 				        <div class="pub-title"> {{ pub.title }} </div>
 				        {% if pub.subtitle %}
 				        <div class="pub-subtitle"> {{ pub.subtitle }} </div>
