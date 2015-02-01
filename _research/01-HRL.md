@@ -8,4 +8,4 @@ img: HRL.png
 My research investigates whether RL processing in the brain could be explained in a similar hierarchical fashion.  This has involved constructing the first neural model to implement the computational theory of HRL, and I continue to work on extending those ideas in new computational directions.
 
 * [PhD thesis]({{site.baseurl}}/files/Rasmussen - 2014 - Hierarchical reinforcement learning in a biologically plausible neural architecture.pdf)
-* [Download code for HRL model](https://uwspace.uwaterloo.ca/bitstream/handle/10012/8943/thesis_code.zip)
+* [Download HRL model](https://uwspace.uwaterloo.ca/bitstream/handle/10012/8943/thesis_code.zip)
