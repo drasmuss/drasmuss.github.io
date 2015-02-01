@@ -1,15 +1,5 @@
 ---
-layout: default
+layout: alternate
 title: Bio
+collection: bio
 ---
-
-<section id="bio" class="container content-section text-left">
-    {% for bio in site.bio %}
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>{{ bio.title }}</h2>
-            {{ bio.content }}
-        </div>
-    </div>
-    {% endfor %}
-</section>
