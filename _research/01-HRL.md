@@ -1,5 +1,11 @@
 ---
 title: Neural modelling of hierarchical reinforcement learning
+img: HRL.png
 ---
 
-test test test
+[Hierarchical reinforcement learning](http://people.cs.umass.edu/~mahadeva/papers/hrl.pdf) is based on decomposing an overall task (such as making breakfast) into a composition of subtasks (such as making toast, boiling eggs, and so on).  This decomposition has a number of functional benefits, allowing the learning agent to solve more complex and interesting problems.  
+
+My research investigates whether RL processing in the brain could be explained in a similar hierarchical fashion.  This has involved constructing the first neural model to implement the computational theory of HRL, and I continue to work on extending those ideas in new computational directions.
+
+* [PhD thesis]({{site.baseurl}}/files/Rasmussen - 2014 - Hierarchical reinforcement learning in a biologically plausible neural architecture.pdf)
+* [Download code for HRL model](https://uwspace.uwaterloo.ca/bitstream/handle/10012/8943/thesis_code.zip)
