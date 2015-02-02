@@ -5,7 +5,7 @@ layout: default
 <section class="container">
     {% for p in site.collections[page.collection]["docs"] %}
     {% capture evenodd %}{% cycle 'even', 'odd' %}{% endcapture %}
-    <div class="row content-section vertical-align">
+    <div {% if p.id %} id="{{p.id}}" {% endif %} class="row content-section vertical-align">
         <div class="col-md-7 {% if evenodd == 'odd' %} col-md-push-5 {% endif %}">
             <h2>{{ p.title }}</h2>
             {{ p.content }}
@@ -13,7 +13,7 @@ layout: default
         </div>
         {% if p.img %}
         <div class="col-md-5 {% if evenodd == 'odd' %} col-md-pull-7 {% endif %}">
-            <img class="center-block img-circle img-responsive" src="/img/{{p.img}}">
+            <img class="center-block img-circle img-responsive hidden-xs" src="/img/{{p.img}}">
         </div>
         {% endif %}
     </div>

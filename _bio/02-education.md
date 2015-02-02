@@ -5,7 +5,7 @@ img: mta.jpg
 
 * 	PhD (Theoretical Neuroscience)  
 	Thesis: [Hierarchical reinforcement learning in a biologically plausible  
-	 neural architecture](/files/Rasmussen - 	2014 - Hierarchical reinforcement learning in a biologically plausible neural architecture.pdf)  
+	 neural architecture](https://www.uwspace.uwaterloo.ca/bitstream/handle/10012/8943/Rasmussen_Daniel.pdf)  
 	Supervisor: Dr. Chris Eliasmith  
 	University of Waterloo, Canada  
 
