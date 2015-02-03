@@ -153,6 +153,10 @@ a:focus {
     font-size: 18px;
 }
 
+.intro .intro-body .intro-heading {
+    text-shadow: 1px 1px #000;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
