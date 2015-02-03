@@ -90,11 +90,12 @@ a:focus {
 }
 
 .navbar-custom .nav li.active {
-    outline: nonte;
+    outline: none;
     background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li a {
+    background-color: rgba(0,0,0,0.3);
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -281,8 +282,6 @@ a:focus {
     display: flex;
     align-items: center;
 }
-
-
 
 .download-section {
     width: 100%;
