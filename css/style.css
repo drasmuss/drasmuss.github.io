@@ -32,7 +32,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -148,10 +148,6 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 18px;
-}
-
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
@@ -160,10 +156,6 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
@@ -220,13 +212,13 @@ a:focus {
   color: #0085a1;
 }
 .pub-list > a > .pub-title {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 .pub-list > a > .pub-subtitle {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   margin-bottom: 5px;
 }
