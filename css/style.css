@@ -166,6 +166,10 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+    
+    .intro .intro-body .intro-heading {
+        text-shadow: none;
+    }
 }
 
 .btn-circle {
