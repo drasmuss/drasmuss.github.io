@@ -9,4 +9,4 @@ id: hrl
 My research investigates whether reinforcement learning processes in the brain could be explained in a similar hierarchical fashion.  This has involved constructing the first neural model to implement the computational theory of HRL, and I continue to work on extending those ideas in new computational directions.
 
 * [PhD thesis](https://www.uwspace.uwaterloo.ca/bitstream/handle/10012/8943/Rasmussen_Daniel.pdf)
-* [Download HRL model](https://uwspace.uwaterloo.ca/bitstream/handle/10012/8943/thesis_code.zip)
+* [Code for HRL model](https://github.com/drasmuss/nhrlmodel)
