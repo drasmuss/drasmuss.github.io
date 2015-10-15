@@ -5,5 +5,5 @@ year: 2014
 journal: PhD thesis
 type: Theses
 pdf: https://www.uwspace.uwaterloo.ca/bitstream/handle/10012/8943/Rasmussen_Daniel.pdf
-code: https://uwspace.uwaterloo.ca/bitstream/handle/10012/8943/thesis_code.zip
+code: https://github.com/drasmuss/nhrlmodel
 ---
