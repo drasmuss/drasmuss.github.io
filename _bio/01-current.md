@@ -3,4 +3,4 @@ title: Current work
 img: princeton.jpg
 ---
 
-I am currently a Postdoctoral Associate in the [Botvinick lab](https://botvinicklab.princeton.edu/) at Princeton University.  I am working on extending my previous work on [hierarchical reinforcement learning](/research/#hrl) into the realm of model-based reasoning, trying to understand how model-based and model-free systems might interact at different levels of the hierarchy.
+I am currently a Senior Scientist at [Applied Brain Research](https://appliedbrainresearch.com/), a company I co-founded with other members of the [Computational Neuroscience Research Group](http://compneuro.uwaterloo.ca) in 2012.  My research focuses on the areas of deep/hierarchical reinforcement learning, where I apply insights gained from basic research in computer/neuro science to develop new applications, both in hardware and software.
