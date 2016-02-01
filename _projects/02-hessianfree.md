@@ -19,5 +19,5 @@ the system (e.g., using custom nonlinearities, connectivity, or loss
 functions) without having to get involved in the internals of the optimization 
 process.
 
-* [Download the package](https://github.com/drasmuss/hessianfree)
+* [Download](https://github.com/drasmuss/hessianfree) (or `pip install hessianfree`)
 * [Documentation](http://pythonhosted.org/hessianfree/)
