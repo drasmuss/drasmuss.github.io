@@ -1,6 +1,4 @@
 collections:
-    research:
-        output: false
     projects:
         output: false
     publications:
