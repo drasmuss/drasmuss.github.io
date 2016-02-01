@@ -3,7 +3,8 @@ layout: default
 ---
 
 <section class="container">
-    {% for p in site.collections[page.collection]["docs"] %}
+    {% assign coll = site.collections | where: "label", page.collection | first %}
+    {% for p in coll.docs %}
     {% capture evenodd %}{% cycle 'even', 'odd' %}{% endcapture %}
     <div {% if p.id %} id="{{p.id}}" {% endif %} class="row content-section vertical-align">
         <div class="col-md-7 {% if evenodd == 'odd' %} col-md-push-5 {% endif %}">
