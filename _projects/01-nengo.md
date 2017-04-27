@@ -1,6 +1,6 @@
 ---
 title: Nengo
-id: nengo
+id_tag: nengo
 img: nengo.png
 ---
 

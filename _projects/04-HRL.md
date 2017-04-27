@@ -1,7 +1,7 @@
 ---
 title: Neural modelling of hierarchical reinforcement learning
 img: HRL.png
-id: hrl
+id_tag: hrl
 ---
 
 [Hierarchical reinforcement learning](http://people.cs.umass.edu/~mahadeva/papers/hrl.pdf) is based on decomposing an overall task (such as making breakfast) into a composition of subtasks (such as making toast, boiling eggs, and so on).  This decomposition has a number of functional benefits, allowing the learning agent to solve more complex and interesting problems.  

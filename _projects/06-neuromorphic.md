@@ -1,6 +1,6 @@
 ---
 title: Neuromorphic engineering
-id: neuromorphic
+id_tag: neuromorphic
 img: neuromorphic.jpg
 ---
 

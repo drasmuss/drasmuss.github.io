@@ -3,6 +3,10 @@ title: Education
 img: mta.jpg
 ---
 
+*   Postdoctoral Associate  
+    Supervisor: Matthew Botvinick  
+    Princeton University, USA
+
 * 	PhD (Theoretical Neuroscience)  
 	Thesis: [Hierarchical reinforcement learning in a biologically plausible  
 	 neural architecture](https://www.uwspace.uwaterloo.ca/bitstream/handle/10012/8943/Rasmussen_Daniel.pdf)  

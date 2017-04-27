@@ -1,6 +1,6 @@
 ---
-title: Deep learning 
-id: hessianfree
+title: Hessian-free optimization
+id_tag: hessianfree
 img: hessianfree.png
 ---
 

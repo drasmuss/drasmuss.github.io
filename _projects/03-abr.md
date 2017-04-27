@@ -1,6 +1,6 @@
 ---
 title: Applied Brain Research
-id: abr
+id_tag: abr
 img: abr.png
 ---
 
