@@ -17,3 +17,4 @@ a Nengo model, allowing for the simulation of a wide variety of neural network a
 
 * [Download Nengo DL](https://github.com/nengo/nengo_dl) (or `pip install nengo_dl`)
 * [Documentation](https://nengo.github.io/nengo_dl/index.html)
+* [White paper](https://arxiv.org/abs/1805.11144)
