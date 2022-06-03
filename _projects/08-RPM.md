@@ -1,6 +1,7 @@
 ---
 title: Solving Raven's Progressive Matrices in a neural model
 img: RPM.png
+img-circle: true
 ---
 
 The Raven's Progressive Matrices intelligence test is one of the most popular tests of general intelligence (the factor quantified by IQ).  It is based on finding the patterns governing a sequence of geometric shapes, and using those patterns to induce the next shape in the sequence.

@@ -22,13 +22,13 @@ title: Publications
 {% assign groups = site.publications | group_by: "type" %}
 
 {% for type in types %}
-{% assign pubs = (groups | where: "name", type) %}
+{% assign pubs = groups | where: "name", type %}
 <section id="{{type}}" class="content-section text-left">
 	<div class="container">
 		<h3>{{type}}</h3>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				{% assign sorted = (pubs[0].items | sort: "year") %}
+				{% assign sorted = pubs[0].items | sort: "year" %}
 				{% for pub in sorted reversed %}
 				<div class="pub-list">
 				    <a href="{{ pub.pdf }}">

@@ -1,11 +1,12 @@
 ---
 title: Current work
 img: princeton.jpg
+img-circle: true
 ---
 
-I am currently a Senior Research Scientist at [Applied Brain Research](https://appliedbrainresearch.com/), 
+I am currently the Applications Team Lead and a Senior Research Scientist at 
+[Applied Brain Research](https://appliedbrainresearch.com/), 
 a company I co-founded with other members of the 
-[Computational Neuroscience Research Group](http://compneuro.uwaterloo.ca) in 2014.  
-My research focuses on the integration of deep learning and neuromorphic methods, 
-where I apply insights gained from basic research in computer/neuro science to 
-develop new applications, both in hardware and software.
+[Computational Neuroscience Research Group](http://compneuro.uwaterloo.ca) in 2014.
+My work focuses on taking our research into low power AI and building it
+into products that make those complex methods accessible to non-expert users.

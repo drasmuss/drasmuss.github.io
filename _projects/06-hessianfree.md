@@ -2,6 +2,7 @@
 title: Hessian-free optimization
 id_tag: hessianfree
 img: hessianfree.png
+img-circle: true
 ---
 
 I am the author of the [hessianfree](https://github.com/drasmuss/hessianfree)
